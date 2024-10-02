@@ -1,0 +1,8 @@
+apiVersion: example.com/v1
+kind: ImageArray
+metadata:
+  name: example-imagearray
+spec:
+  images:
+    - "nginx:latest"
+    - "busybox:1.32"
